@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: Assignment 1.3
+; Author: Professor Krasso
+; Date: 9 July 2020
+; Modified By: Brendan Mulhern
+; Description: This is angular.
+;====
+*/
 import { Component } from '@angular/core';
 
 @Component({
