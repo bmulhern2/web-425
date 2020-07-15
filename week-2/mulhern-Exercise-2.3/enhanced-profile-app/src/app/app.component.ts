@@ -2,9 +2,9 @@
 ============================================
 ; Title: Assignment 1.5
 ; Author: Professor Krasso
-; Date: 9 July 2020
+; Date: 15 July 2020
 ; Modified By: Brendan Mulhern
-; Description: This is the profile app.
+; Description: This is the enhanced profile app.
 ;====
 */
 import { Component } from '@angular/core';

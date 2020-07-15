@@ -1,3 +1,10 @@
+/*
+; Title: Exercise 2.3
+; Author: Professor Krasso
+; Date: 15 July 2020
+; Modified By: Brendan Mulhern
+; Description: This is Exercise 2.3. This exercise is about adding stuff to the profile-application.
+*/
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
