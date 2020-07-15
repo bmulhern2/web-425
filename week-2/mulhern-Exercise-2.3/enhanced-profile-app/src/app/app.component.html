@@ -11,13 +11,7 @@
   <a class="nav-link">About</a>
   <a class="nav-link">Contact</a>
 </nav>
-<ng-template>
-  <div [ngIf]="isLoggedIn" class="row">
-    <div class="col-12 alert-error">
-      <h1>You are not authorized to view this content</h1>
-    </div>
-  </div>
-</ng-template>
+<div *ngIf="isLoggedIn; else showError">
 <table class="table">
   <thead>
     <tr>
@@ -34,3 +28,11 @@
     </tr>
   </tbody>
 </table>
+</div>
+<ng-template #showError>
+  <div class="row">
+    <div class="col-12">
+      <h1>You are not authorized to view this content</h1>
+    </div>
+  </div>
+</ng-template>
