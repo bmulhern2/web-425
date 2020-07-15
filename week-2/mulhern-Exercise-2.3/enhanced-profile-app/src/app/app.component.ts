@@ -1,9 +1,11 @@
 /*
-; Title: Exercise 2.2
+============================================
+; Title: Assignment 1.5
 ; Author: Professor Krasso
-; Date: 15 July 2020
+; Date: 9 July 2020
 ; Modified By: Brendan Mulhern
-; Description: This is Exercise 2.2. This exercise is about adding routers to Angular Applications.
+; Description: This is the profile app.
+;====
 */
 import { Component } from '@angular/core';
 
@@ -13,5 +15,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  assignment: string = "Exercise 2.3 - Data Binding";
+  isLoggedIn: boolean = true
 }
