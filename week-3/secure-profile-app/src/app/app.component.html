@@ -1,0 +1,30 @@
+<!------============================================
+; Title: Assignment 1.5
+; Author: Professor Krasso
+; Date: 15 July 2020
+; Modified By: Brendan Mulhern
+; Description: This is the enhanced profile app.
+;====--->
+<div *ngIf="isLoggedIn; else showError">
+<table class="table">
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Information</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><app-my-image></app-my-image></td>
+      <td><app-my-details></app-my-details></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<ng-template #showError>
+  <div class="row">
+    <div class="col-12">
+      <app-sign-in></app-sign-in>
+    </div>
+  </div>
+</ng-template>
