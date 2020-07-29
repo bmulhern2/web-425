@@ -9,15 +9,15 @@ import { Router } from '@angular/router'
 export class SignInGuard implements CanActivate {
   constructor(private route: Router) { }
   canActivate(
-    isLoggedIn: Boolean = next.queryParams.isLoggedIn
+    isLoggedIn: Boolean = next.queryParams.isLoggedIn,
+    next: ActivatedRouteSnapshot,
+    state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
+    return true;
     if (isLoggedIn = 'True') { 
       return true 
     } else {
       this.router.navigate(['/'])
     }
-    next: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
-    return true;
   }
   
 }

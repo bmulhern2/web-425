@@ -1,0 +1,24 @@
+<!------============================================
+; Title: Assignment 2.4
+; Author: Professor Krasso
+; Date: 15 July 2020
+; Modified By: Brendan Mulhern
+; Description: This is the composer app.
+;====--->
+<a routerLink="/composer-details/{{composer.compserId}}">{{composer.composerId}}</a>
+<table class="table">
+    <thead class="text-center">
+        <tr>
+            <th>ComposerId</th>
+            <th>Full Name</th>
+            <th>Genre</th>
+        </tr>
+    </thead>
+    <tbody class="text-center" *ngFor="let Composer of Composers">
+        <tr>
+            <td>{{ Composer.composerId }}</td>
+            <td>{{ Composer.name }}</td>
+            <td>{{ Composer.genre }}</td>
+        </tr>
+    </tbody>
+</table>
