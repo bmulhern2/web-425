@@ -1,10 +1,11 @@
 /*
-; Title: Assignment 2.4
-; Author: Professor Krasso
-; Date: 15 July 2020
-; Modified By: Brendan Mulhern
-; Description: This is the composer app.
+Title: Assignment 4.4 
+Author: Professor Krasso
+Date: 1 August 2020
+Modified By: Brendan Mulhern
+Description: It's the enterprise-composer  project!
 */
+
 import { Component, OnInit } from '@angular/core';
 import { IComposer } from '../composer.interface';
 import { ComposerService } from '../composer.service'
