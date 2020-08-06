@@ -1,3 +1,11 @@
+/*
+Title: Assignment 5.2 
+Author: Professor Krasso
+Date: 6 August 2020
+Modified By: Brendan Mulhern
+Description: It's the in-n-out book project!
+*/
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BookListComponent } from './book-list/book-list.component'
