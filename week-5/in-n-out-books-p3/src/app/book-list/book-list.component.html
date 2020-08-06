@@ -1,0 +1,21 @@
+<div fxLayout="row wrap">
+    <h2 class="text-success">Top 5 Favorite Books</h2>
+    <table class="table">
+        <thead>
+            <tr *ngFor="let header of headers">
+                <th>{{ header.isbn }}</th>
+                <th>{{ header.title }}</th>
+                <th>{{ header.numOfPages }}</th>
+                <th>{{ header.authors }}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let book of books">
+                <td><a style="text-decoration: none; color:blue; cursor: ponter; text-decoration: underline;" ng-click="showBooksDetails(isbn: string)">{{ book.isbn }}</a></td>
+                <td>{{ book.title }}</td>
+                <td>{{ book.numOfPages }}</td>
+                <td>{{ header.authors.join(',') }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
