@@ -1,9 +1,9 @@
 /*
-Title: Assignment 6.2
+Title: Assignment 6.3
 Author: Professor Krasso
 Date: 15 August 2020
 Modified By: Brendan Mulhern
-Description: It's the in-n-out book project part 4 part 1!
+Description: This is project is the GPA-Calulator App!
 */
 
 import { Component, OnInit } from '@angular/core';
