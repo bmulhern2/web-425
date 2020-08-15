@@ -1,9 +1,9 @@
 /*
-Title: Assignment 5.4
+Title: Assignment 6.2
 Author: Professor Krasso
-Date: 6 August 2020
+Date: 15 August 2020
 Modified By: Brendan Mulhern
-Description: It's the in-n-out book project part 3!
+Description: It's the in-n-out book project part 4 part 1!
 */
 
 import { BrowserModule } from '@angular/platform-browser';
