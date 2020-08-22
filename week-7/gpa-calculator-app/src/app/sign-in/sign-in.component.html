@@ -1,0 +1,8 @@
+<form [formGroup]="signInForm" (ngSubmit)="onSubmit(); signInForm.reset()">
+    <div class="msg-error" *ngIf="errorMessage">{{ errorMessage }}</div>
+    <mat-card><mat-card-title>Student Sign In</mat-card-title>
+    <mat-card-subtitle>You must enter a valid student ID to proceed</mat-card-subtitle></mat-card>
+    <input type="text" required />
+    <button type="submit" [disabled]="!signInForm.valid">Submit</button>
+    <div *ngIf="form.studentId.errors && form.studentId.touched"></div>
+</form>
