@@ -1,9 +1,9 @@
 /*
-Title: Assignment 7.2
+Title: Assignment 7.3
 Author: Professor Krasso
 Date: 22 August 2020
 Modified By: Brendan Mulhern
-Description: This is project is the GPA-Calulator App Part 3!
+Description: This is project is the GPA-Calulator App!
 */
 
 import { Component, OnInit, Input } from '@angular/core';
